@@ -37,7 +37,7 @@ public class SentimentAnalyzer {
         int opinion = 0;
 
         String pattern = feature + " was ";
-        // your code
+      
         for(int i = 0; i<posOpinionWords.length; i++){
             if(review.contains(pattern + posOpinionWords[i])){
                 opinion = 1;
